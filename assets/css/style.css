@@ -29,8 +29,8 @@ body {
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Raleway;
 font-size: 21px;
-font-style: normal;
-font-weight: 600;
+font-style: Bold;
+font-weight: 600px;
 line-height: 127%; /* 26.67px */
 }
 
@@ -137,26 +137,26 @@ p {
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border: 0;
+  border: 27.8px;
   padding: 0 40px;
   font-size: 16px;
   height: 55px;
   line-height: 55px;
-  border-radius: 0;
+  border-radius: 27.8px;
   color: #fff;
   cursor: pointer;
   z-index: 5;
   transition: all 0.4s ease-out 0s;
-  background-color: #E84E4E;
+  background-color: #16423D;
 }
 
 .main-btn:hover {
-  background-color: #ff6b6b;
+  background-color: #16423D;
   color: #fff;
 }
 
@@ -372,7 +372,7 @@ p {
 }
 
 .navbar-brand img {
-  width: 150px;
+  width: 300px;
 }
 
 @media (max-width: 767px) {
@@ -701,7 +701,7 @@ font-family: Shrikhand;
 font-size: 52px;
 font-style: normal;
 font-weight: 400;
-line-height: 103.5%; /* 53.82px */
+line-height: 90%; /* 53.82px */
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -738,7 +738,7 @@ line-height: 103.5%; /* 53.82px */
 }
 
 .hero_content p {
-  font-size: 16px;
+  font-size: 21px;
   color: #16423D;
   margin-top: 30px;
 }
