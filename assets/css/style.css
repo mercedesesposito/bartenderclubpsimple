@@ -25,10 +25,13 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  color: #5A5872;
+  color: #16423D;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Raleway;
+font-size: 21px;
+font-style: normal;
+font-weight: 600;
+line-height: 127%; /* 26.67px */
 }
 
 * {
@@ -76,10 +79,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  color: #2B2A3D;
-  margin: 0px;
+  color: #FF3600;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Shrikhand;
+font-size: 55px;
+font-style: normal;
+font-weight: 400;
+line-height: 103.5%; /* 56.925px */
 }
 
 h1 {
@@ -652,7 +658,6 @@ p {
   height: 750px;
   position: relative;
   overflow: hidden;
-  z-index: 1;
 }
 
 @media only screen and (min-width: 1400px) {
@@ -689,10 +694,14 @@ p {
 }
 
 .hero_content .hero_title {
-  font-size: 60px;
-  line-height: 85px;
-  color: #fff;
-  margin-top: 15px;
+ color: #FF3600;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Shrikhand;
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: 103.5%; /* 53.82px */
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -730,7 +739,7 @@ p {
 
 .hero_content p {
   font-size: 16px;
-  color: #fff;
+  color: #16423D;
   margin-top: 30px;
 }
 
