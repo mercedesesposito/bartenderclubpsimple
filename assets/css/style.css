@@ -19,10 +19,11 @@
 /*===========================
     01.COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Shrikhand&display=swap');
 html {
   scroll-behavior: smooth;
 }
+
 
 body {
   color: #16423D;
