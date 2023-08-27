@@ -695,7 +695,7 @@ p {
 
 .hero_content .hero_title {
  color: #FF3600;
-text-align: left;
+text-align: center;
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Shrikhand;
 font-size: 52px;
